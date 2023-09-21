@@ -1,0 +1,10 @@
+version: "1"
+services:
+
+  tecadi-app:
+    build: './tecadi-app'
+    container_name: tecadi-app
+    environment:
+      - PORT=3000
+    ports:
+      - 3000:3000
